@@ -1,0 +1,55 @@
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#horloge {
+    width: 567px;
+    height: 567px;
+    background-image: url('../image/cadran.png');
+    /* box-shadow: 0 1px 2px grey; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.coeur{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    top: 263px;
+}
+
+#seconde{
+    position: absolute;
+    transform: rotate(240deg);
+    transform-origin: 94px 10px;
+    top: 262px;
+    left: 192px;
+
+}
+
+#minute{
+    position: absolute;
+    transform: rotate(120deg);
+    transform-origin: 31px 30px;
+    top: 257px;
+    left: 262px;
+
+}
+
+#heure{
+    position: absolute;
+    transform: rotate();
+    transform-origin: 25px 26px;
+    top: 245px;
+    left: 272px;
+}
