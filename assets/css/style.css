@@ -40,9 +40,9 @@ body {
 #minute{
     position: absolute;
     transform: rotate(120deg);
-    transform-origin: 31px 30px;
-    top: 257px;
-    left: 262px;
+    transform-origin: 14px 14px;
+    top: 256px;
+    left: 270px;
 
 }
 
@@ -50,6 +50,6 @@ body {
     position: absolute;
     transform: rotate();
     transform-origin: 25px 26px;
-    top: 245px;
-    left: 272px;
+    top: 254px;
+    left: 253px;
 }
